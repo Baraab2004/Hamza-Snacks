@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Espresso-Menu</title>
+    <link
+      rel="stylesheet"
+      href="https://www.example.com/path/to/your-icons.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <nav class="navbar nav-2 navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="./index.html">
+          <img src="./assets/img/لوجو.jpeg" alt="" />
+          <h3>Ｈａｍｚａ Ｓｎａｃｋｓ</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto d-flex align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html" id="w"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html" id="w">Menu</a>
+            </li>
+
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Modal -->
+
+    <!--Header -->
+    <header class="header" id="home">
+      <div class="background"></div>
+      <div class="container">
+        <div class="dec-header">
+          <h1 class="animate__animated animate__lightSpeedInRight">قائمتنا</h1>
+          <h3 class="animate__animated animate__lightSpeedInLeft">
+            Hamza Snacks
+          </h3>
+          <p class="animate__animated animate__lightSpeedInRight">
+            نكهات تبهج حواسك وتجعل كل لحظة ألذ
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="menu-item p-5">
+        <div class="container">
+          <div
+            class="accordion-items d-flex justify-content-center flex-column gap-2"
+          >
+            <!--section 1-->
+            <div class="item d-flex gap-5" id="k">
+              <button
+                type="button"
+                class="btn button-menu"
+                style="
+                  --bs-btn-padding-y: 0.25rem;
+                  --bs-btn-padding-x: 0.5rem;
+                  --bs-btn-font-size: 0.75rem;
+                "
+              >
+                سندويشات
+              </button>
+
+              <div class="content-menu">
+                <div class="menu-list">
+                  <ul class="list-unstyled m-0">
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">زنجر</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪10 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/زنجر سندويش.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                    <br>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">تاكو</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪18 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/تاكو.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">رغيف فلافل</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪5 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/رغيف فلافل.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">بجيت برجيت</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪12 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/بجيت برجيت.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">بسطرما</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪7 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/بسطرما.png"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">رغيف شاورما</h6>
+                        <span class="border-bottom flex-grow-1"></span>
+                        <span class="ps-4 fs-lg m-0 cost">₪11/14 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/رغيف.jpeg"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">زنجر برغر</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪16 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/زنجر برجر.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">لفة فلافل</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪8 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/لفة فلافل.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                    <br>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">طربوش</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost"> ₪12/18 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/طربوش.jpeg"
+                          alt=""
+                          class="m"
+                          id="z"
+                                                    height="200px"
+
+                        />
+                      </div>
+                    </li>
+                  </ul>
+
+                  <ul class="list-unstyled m-0">
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">شنيتسل</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪10 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/سندويش شنيتسل.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">كريسبي</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪10 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/سندويش كريسبي.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">صاروخ دجاج</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪18 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/صاروخ دجاح.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                    <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">صاروخ عجل</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪22 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/صاروخ عجل.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">كريسبي برغر</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪15 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/كريسبس برجر.png"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">لفة شاورما دجاج</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪15 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/لفة شاورما دجاج.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">لفة شاورما عجل</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪18 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/لفة شاورما عجل.png"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">بجيت نقانق</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪7 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/بجيت نقانق.png"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                    <br>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">ستيك</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪10 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/ستيك.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                                                    height="200px"
+
+                        />
+                      </div>
+                    </li>
+                    <br>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">كريسبي رول</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪16 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/كريسبي رول2.jpeg"
+                          alt=""
+                          class="m"
+                          id="z"
+                                                    height="200px"
+
+                        />
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--section 2-->
+            <div class="item d-flex gap-5">
+              <button
+                type="button"
+                class="btn button-menu"
+                style="
+                  --bs-btn-padding-y: 0.25rem;
+                  --bs-btn-padding-x: 0.5rem;
+                  --bs-btn-font-size: 0.75rem;
+                "
+              >
+                وجبات
+              </button>
+              <div class="content-menu">
+                <div class="menu-list">
+                  <ul class="list-unstyled m-0">
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5"> زنجر اصابع</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪20 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/وجبة زنجر اصابع.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                    <br>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">تاكو</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪23 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/تاكو.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">فرش فرايز</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪20 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/فرش فرايز.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">بجيت برجيت</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪18 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/بجيت برجيت.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">باشكا</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪20/23 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/باشكا.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5"> شامية</h6>
+                        <span class="border-bottom flex-grow-1"></span>
+                        <span class="ps-4 fs-lg m-0 cost">₪20/23 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/شامية.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">زنجر برغر</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪22 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/زنجر برجر.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">كاساديا</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪23/28 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/كاساديا.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                    <br>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">طربوش</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost"> ₪18/23 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/طربوش.jpeg"
+                          alt=""
+                          class="m"
+                          id="z"
+                                                    height="200px"
+
+                        />
+                      </div>
+                    </li>
+                  </ul>
+
+                  <ul class="list-unstyled m-0">
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">شنيتسل</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪20 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/وجبة شنيتسل.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">كريسبي</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪20 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/وجبة كريسبي2.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">صاروخ دجاج</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪23 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/صاروخ دجاح.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                    <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">صاروخ عجل</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪28 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/صاروخ عجل.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">كريسبي برغر</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪22 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/كريسبس برجر.png"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">لفة شاورما دجاج</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪20 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/لفة شاورما دجاج.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">لفة شاورما عجل</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪23 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/لفة شاورما عجل.png"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">بجيت شاورما</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪20/23 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/باجيت.jpeg"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                    <br>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">ستيك</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪17 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/ستيك.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                                                    height="200px"
+
+                        />
+                      </div>
+                    </li>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">كريسبي رول</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪22 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/كريسبي رول2.jpeg"
+                          alt=""
+                          class="m"
+                          id="z"
+                                                    height="200px"
+
+                        />
+                      </div>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--section 3-->
+            <div class="item d-flex gap-5">
+              <button
+                type="button"
+                class="btn button-menu"
+                style="
+                  --bs-btn-padding-y: 0.25rem;
+                  --bs-btn-padding-x: 0.5rem;
+                  --bs-btn-font-size: 0.75rem;
+                "
+              >
+                Snacks
+              </button>
+              <div class="content-menu">
+                <div class="menu-list">
+                  <ul class="list-unstyled m-0">
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5"> تونا</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪10 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/تونا.jpeg"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                    <br>
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">صحن سلطة</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪5-10-15 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/صحن سلطة.png"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    
+                  </ul>
+
+                  <ul class="list-unstyled m-0">
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">صحن شيبس</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪5-10-15 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/صحن شيبس.jpg"
+                          alt=""
+                          class="m"
+                          id="z"
+                          height="200px"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    <li class="py-2">
+                      <div class="d-flex align-items-baseline pb-2">
+                        <h6 class="m-0 pe-4 h5">شريحة جبنة</h6>
+                        <span class="border-bottom flex-grow-1"> </span>
+                        <span class="ps-4 fs-lg m-0 cost">₪1 </span>
+                      </div>
+                      <div
+                        class="add-cart d-flex align-items-center justify-content-around"
+                      >
+                        <img
+                          src="./assets/img/محل/شرائح جبنة.png"
+                          alt=""
+                          class="m"
+                          id="z"
+                        />
+                      </div>
+                    </li>
+                                        <br>
+
+                    
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-white pt-4 footer">
+      <div class="container">
+        <div class="row">
+          <!-- Logo and Contact Information -->
+          <div class="col-md-4">
+            <a
+              class="navbar-brand d-flex align-items-center"
+              href="./index.html"
+            >
+              <img src="./assets/img/لوجو.jpeg" alt="" />
+              <h3>Ｈａｍｚａ Ｓｎａｃｋｓ</h3>
+            </a>
+            <div class="info-conect">
+              <ul class="list-unstyled mt-3">
+                <li><i class="fa-solid fa-phone"></i> +972-597-792-585</li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i> اوقات العمل: من 10 صباحا
+                  حتى 1:30 مساء
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>جنين - الدوار الرئيسي
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Map Section -->
+          <div class="col-md-4">
+            <h5>Our Location</h5>
+            <!-- Embedded Google Map for Ramallah, Al-Tireh -->
+            <div class="map-responsive">
+              <iframe
+                src="https://www.google.com/maps?q=Jenin%20Main%20Roundabout&output=embed"
+                width="100%"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <!-- Copyright Section -->
+        <div class="text-center py-3">
+          <p>Ｈａｍｚａ Ｓｎａｃｋｓ</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
