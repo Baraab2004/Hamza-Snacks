@@ -1395,6 +1395,36 @@ h5#exampleModalLabel {
         margin-left: 22%;
     }
 }
+@media (max-width: 426px) {
+
+.navbar-toggler {
+        display: none !important;
+    }
+
+    /* إظهار المنيو مباشرة */
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+
+    .navbar-nav {
+        flex-direction: column; /* أو row إذا بدكهم جنب بعض */
+        justify-content: space-around;
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+    }
+    ul.navbar-nav.ms-auto.d-flex.align-items-center{
+gap: 0px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px;
+        
+        padding: 8px 0;
+    }
+
+}
 @media (max-width:391px) {
     h5#exampleModalLabel {
         margin-left: 19%;
